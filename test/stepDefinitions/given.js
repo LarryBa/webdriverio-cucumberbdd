@@ -8,7 +8,8 @@ defineSupportCode(function({ Given }) {
   // *** belongs to Yahoo serch feature
   Given(/^I am on the search page$/, function() {
     yahooPage.open();
-    browser.getTitle().should.equal('Yahoo Search - Web Search');
+    //browser.getTitle().should.equal('Yahoo Search - Web Search');
+    browser.getTitle().should.equal('Yahoo is now part of Oath');
   });
 
   // *** belongs to ta-loging  feature

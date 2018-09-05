@@ -13,11 +13,11 @@ Feature: Performing a Yahoo Search
         And  I click the search button
         Then I should see a list of search results
 
-    # Scenario Outline: Performing a search operation with passing test data as data table
-    #     When I enter <searchItem> into the search box
-    #     And  I click the search button
-    #     Then I should see a list of search results
+    Scenario Outline: Performing a search operation with passing test data as data table
+        When I enter <searchItem> into the search box
+        And  I click the search button
+        Then I should see a list of search results
 
-    #     Examples:
-    #     |searchItem|
-    #     |"Selenium Webdriver"|
+        Examples:
+        |searchItem|
+        |"Selenium Webdriver"|
