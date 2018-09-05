@@ -1,0 +1,14 @@
+{
+  "name": "wdio-cucumberbdd",
+  "version": "1.0.0",
+  "description": "Webdriver bingings for node.js with cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "selenium"
+  ],
+  "author": "Larry",
+  "license": "ISC"
+}
