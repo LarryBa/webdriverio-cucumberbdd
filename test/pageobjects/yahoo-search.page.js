@@ -15,7 +15,8 @@ class YahooPage extends Page  {
    */
 
   open () {
-      super.open('https://search.yahoo.com')       //provide your additional URL if any. this will append to the baseUrl to form complete URL
+      //super.open('https://search.yahoo.com') 
+      super.open('https://uk.yahoo.com/?p=us&guccounter=1')      //provide your additional URL if any. this will append to the baseUrl to form complete URL
       browser.pause(1000);
   }
 
