@@ -15,4 +15,5 @@ Feature: Performing a login
         Examples:
         |user| |password|
         |"user@phptravels.com"| |"demouser"|
+        |"user@phptravels.com"| |   "demo" |
         
